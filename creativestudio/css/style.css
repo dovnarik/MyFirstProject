@@ -1,0 +1,539 @@
+*{
+    box-sizing: border-box;
+  }
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width:960px;
+    margin:0px auto;
+  }
+  
+  .header {
+    width:960px;
+    padding: 0px 0px;
+    float:left;
+    background-color: #f4f4f4;
+	  margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #e2e0e0;
+    padding-bottom: 20px;
+  }
+  
+  .logo  {    
+    background: url(../images/logo.png) no-repeat;
+    width: 200px;
+    min-height: 100px;
+    float: left;
+  }
+
+  .item2 {
+    display: none;
+  }
+  
+  .main_menu {
+    width: 640px;
+    float: right;
+	  margin-top: 30px;
+  }
+  
+  .main_menu ul {
+    list-style:none;
+    padding:0px;
+    float:right;
+  }
+  
+  .main_menu ul li {
+    float:left;
+    padding:0px 15px;
+    margin-right:18px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+  
+  .banner {
+    width: 960px;
+    min-height: 380px;
+    background-image:url(../images/banner_back.png);
+    background-repeat: repeat-y;
+    position: relative;
+    padding-left: 32px;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .banner-image {
+    width: 40%;
+    height: 365px; 
+    background-image:url(../images/banner.png);
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+  }
+  
+  h1 {
+    color: white;
+    max-width: 0em;
+    font-family: sans-serif;
+    font-size: 58px;
+    text-shadow: 0 3px 5px rgba(0,0,0, 0.25);
+    text-transform: uppercase;
+  }
+  
+  .call-to-action, .view {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 200px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  
+  .view {
+    text-align: right;
+    color: orange;
+  }
+  
+  .bot {
+    font-size: 0;
+  }
+
+  .about {
+    width: 960px;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #e2e0e0;
+    padding-bottom: 20px;
+   }
+
+  .aboutUs {
+    width: 300px;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .stick {
+    width: 300px;
+    height: 3px;
+    background-color: black;
+  }
+
+  h5 {
+    color: orange;
+  }
+
+  span {
+    font-size: 12px;
+    text-transform: none;
+  }
+
+  .benefits {
+    width: 300px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .benefitsimage {
+    width: 300px;
+    min-height: 200px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    background-image: url(../images/ourBenefits.png);
+    background-repeat: no-repeat;
+  }
+
+  .testimonials {
+    width: 300px;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .portfolio {
+    width: 960px;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px solid #e2e0e0;
+    padding-bottom: 30px;
+  }
+
+  .portfolioimage1 {
+    width: 215px;
+    min-height: 135px;
+    background-image:url(../images/port1.png);
+    margin-right: 30px;
+    float: left;
+    position: relative;  
+  }
+
+  .portfolioimage2 {
+    width: 215px;
+    min-height: 135px;
+    background-image:url(../images/port2.png);
+    margin-right: 30px;
+    float: left;
+    position: relative;  
+  }
+
+  .portfolioimage3 {
+    width: 215px;
+    min-height: 135px;
+    background-image:url(../images/port3.png);
+    margin-right: 30px;
+    float: left;
+    position: relative;  
+  }
+
+  .portfolioimage4 {
+    width: 215px;
+    min-height: 135px;
+    background-image:url(../images/port4.png);
+    margin-right: 5px;
+    float: left;
+    position: relative;  
+  }
+    
+
+  .vid {
+    width: 60px;
+    min-height: 20px;
+    background-color: orange;
+	  position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .blog {
+    width: 960px;
+    min-height: 100px;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    margin: 30px 0px;
+  }
+
+  .blogUpdate {
+    width: 75%;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .connect {
+    width: 25%;
+    background-color: #f4f4f4;
+    position: relative;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+  } 
+
+  .item {
+    width: 175px;
+    min-height: 50px;
+    background-color: #f4f4f4;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    width: 960px;
+    background-color: #e2e2e2;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .menu {
+    width: 840px;
+    background-color: #e2e2e2;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+  }
+
+  .logo2 {
+    width: 120px;
+    min-height: 70px;
+    background-color: #f4f4f4;
+    background-image: url(../images/logo2.png);
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+  }
+
+  @media all and (min-width:320px) and (max-width:768px) {
+    .container {
+      width: 96%;
+      padding: 2%;
+    }
+    .header {
+      width: 100%;
+    }
+
+    .logo {
+      width: 58%;
+      float: left;
+      position: relative;
+    }
+
+    .item2 {
+      width: 32%;
+      min-height: 50px;
+      background-color: #e2e2e2;
+      background-image: url(../images/icon.png);
+      background-repeat: no-repeat;
+      float: right;
+      position: relative;
+    }
+
+    .main_menu  {
+      display: none;
+      width: 0%;
+    }
+
+    .banner {
+      display: none;
+    }
+
+    .about {
+      width: 100%;
+      position: relative;
+      float: left;
+    }
+
+    .portfolio {
+      width: 100%;
+      float: left;
+      position: relative;  
+    }
+
+    .portfolioimage1 {
+      width: 48%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      background-repeat: no-repeat;
+      float: left;
+      position: relative;  
+    }
+  
+    .portfolioimage2 {
+      width: 48%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      background-repeat: no-repeat;
+      float: left;
+      position: relative;  
+    }
+  
+    .portfolioimage3 {
+      width: 48%;
+      margin-right: 2%;
+      background-repeat: no-repeat;
+      float: left;
+      position: relative;  
+    }
+  
+    .portfolioimage4 {
+      width: 48%;
+      margin-right: 2%;
+      background-repeat: no-repeat;
+      float: left;
+      position: relative;  
+    }
+
+    .blog {
+      width: 100%;
+    }
+
+    .footer {
+      width: 100%;
+    }
+
+    .menu {
+      width: 70%;
+      float: left;
+    }
+
+    .logo2 {
+      width: 30%;
+      float: left;
+    }
+
+    .connect {
+      display: none;
+    }
+
+    @media all and (min-width:769px) and (max-width:959px) {
+      .container {
+        width: 96%;
+        padding: 2%;
+      }
+      .header {
+        width: 100%;
+      }
+  
+      .logo {
+        width: 40%;
+      }
+
+      .main_menu  {
+        width:60%;
+      }
+  
+      .item2 {
+      display: none;
+      }
+  
+      .banner {
+        width: 100%;
+      }
+  
+      .about {
+        width: 100%;
+        position: relative;
+        float: left;
+      }
+
+      .aboutUs {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+      }
+
+      .testimonials {
+        display: none;
+      }
+
+      .benefits {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+      }
+  
+      .portfolio {
+        width: 100%;
+        float: left;
+        position: relative;  
+      }
+  
+      .portfolioimage1 {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;  
+      }
+    
+      .portfolioimage2 {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;  
+      }
+    
+      .portfolioimage3 {
+        width: 48%;
+        margin-right: 2%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;  
+      }
+    
+      .portfolioimage4 {
+        width: 48%;
+        margin-right: 2%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;  
+      }
+  
+      .blog {
+        width: 100%;
+      }
+  
+      .footer {
+        width: 100%;
+      }
+  
+      .menu {
+        width: 70%;
+        float: left;
+      }
+  
+      .logo2 {
+        width: 30%;
+        float: left;
+      }
+  
+      .connect {
+        display: none;
+      }
+    }  
+  }
+
+  
